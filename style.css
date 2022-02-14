@@ -1,0 +1,59 @@
+body{
+    background-color: yellowgreen;
+    font-size: 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     text-align: right;
+}
+
+.text-primary{
+    color: purple!important;
+}
+header i{
+    color: orangered;
+}
+
+header i:hover{
+    color: rgb(144, 144, 207);
+}
+
+.work{
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+
+.work .card img{
+    height: 300px;
+    opacity: .8;
+}
+
+.work .card:hover img{
+    opacity: 1;
+}
+
+.work .card:hover .card-body{
+    color: white;
+    
+    background: linear-gradient(to left, #f7420bd5, #cc001199);
+}
+
+.work .card{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+
+.credit{
+    background: linear-gradient(60deg, #289c41, #e7be07);
+}
+.credit p{
+    color: red;
+    font-size: 20px;
+    padding: -80px; 
+    margin: 0%; 
+    
+}
+
+.credit:hover{
+    transform: rotate(10deg);
+    transition-duration: .2s;
+}

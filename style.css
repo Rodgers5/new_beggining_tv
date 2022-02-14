@@ -5,15 +5,34 @@ body{
      text-align: right;
 }
 
-.text-primary{
-    color: purple!important;
-}
-header i{
-    color: orangered;
+.title{
+    text-transform: uppercase;
+    color: yellow;
+    text-align: right;
+    padding: -24px;
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0%;
 }
 
-header i:hover{
-    color: rgb(144, 144, 207);
+nav{
+    background: linear-gradient(45deg, #ff0800, hsl(19, 97%, 47%));
+}
+
+nav ul.navbar-nav li:hover{
+    background: white;
+    size:5px;
+}
+
+.title:hover{
+    text-decoration:none;
+    color: red;
+    font-weight: 450;  
+    transition: .5s ease-in-out;  
+}
+
+.text-primary{
+    color: purple!important;
 }
 
 .work{
@@ -50,7 +69,7 @@ header i:hover{
     font-size: 20px;
     padding: -80px; 
     margin: 0%; 
-    
+
 }
 
 .credit:hover{
